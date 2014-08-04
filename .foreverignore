@@ -1,5 +1,0 @@
-**/.tmp/**
-assets/**  
-views/**/*.ejs
-.idea/**
-.git/**
