@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<h2>Login Page</h2>
+
+<% if (result == 'error') { %>
+	<h3>
+	<%= detail %>
+	</h3>
+<% } %>
+
+
+<form action='/auth/process' method='post'>
+	<p>Your Account : <input type='text' name='username' valu='test@example.com' size='20'/></p>
+	<p>Your Password : <input type='password' name='password'  size='20' /></p>
+	<p><input type='submit' name='submit' value='login' /></p>
+</form>
